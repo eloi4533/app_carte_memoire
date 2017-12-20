@@ -4,18 +4,26 @@
     <meta charset="utf-8">
     <title>flashcard</title>
     <link rel="stylesheet" href="flashcard.css">
+    <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
 </head>
 
 <body>
+  <!--Import jQuery before materialize.js-->
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
     <h1>Flash card</h1>
     <div align="center" class="q1" onclick="show()">
         <img id="qimage1" style="width:300px;height:400px;">
     </div>
 
-    
-	
+
+
 	<script type="text/javascript">
-	
+
 		let state = 0;
         function reponse() {
             if (qimage1.src.match("Q01.png")) {
