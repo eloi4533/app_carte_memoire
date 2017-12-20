@@ -6,33 +6,7 @@ h1 {
 	font-size:60px;
 	text-align: center;
 	color:black;
-	
+
 	font-family:Garamond;
-	
-}
-
-img {
-	
-  border-image: url('//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/frame.png') 93 92 87 92 stretch stretch; 
-  border-color: #f4be52;
-  border-style: inset;
-  border-width: 20px;
-  display: block;
-  width: 40%;
-  height: auto;
-  background-color: #ffe;
-  margin: 0 auto;
-
-@media all and (max-width: 500px) {
-  img.frame { 
-    border-width: 0px;
-    width: 100%; }
 
 }
-
-
-
-
-
-
-
